@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="js/timer.js"></script>
+    <link rel="shortcut icon" href="static/pinguin-svgrepo-com.svg">
+    <title>Para: Mi amorcito</title>
+</head>
+<body class="d-flex flex-column h-100" style="background-color: #ffe8eb;">
+    <header class="py-5">
+        <div class="container px-5 pb-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col">
+                    <!-- Text section-->
+                    <div class="text-center text-xxl-start">
+                        <div class="fs-3 fw-light text-muted">
+                            <h1 class="font-monospace">
+                                Hola mi ardillita
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+                                    fill="currentColor" class="bi bi-heart-fill text-danger" 
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg> 
+                                </br>
+                            </h1> 
+                            <p class="h5 font-monospace">
+                                ¿Recuerdas el día qu<span class="text-danger">e</span> todo empezó? <br>
+                                Cuando nos vimos po<span class="text-danger">r</span> primera vez... <br>
+                                El día que nos dimos cu<span class="text-danger">e</span>nta de que estábamos destinados.<br>
+
+                                Ese día me enamoré de ti a pena<span class="text-danger">s</span> te vi, me enamoré de tus ojos, de tu sonrisa, <br>
+                                de tu pelito her<span class="text-danger">m</span>oso, de tus palabras, de tus acciones... 
+                                de todo. <br>
+
+                                Contigo siento una conex<span class="text-danger">i</span>ón tremenda que ni sé cómo explicar... <br>
+                                pero es algo tan lindo, <span class="text-danger">t</span>an perfecto, tan... único. <br>
+                                <b>NO</b> quiero perderte p<span class="text-danger">o</span>r nada del mundo... <br>
+                                eres mi todo, mi cielo, mi vi<span class="text-danger">d</span>a, mi princesita, <br>
+                                mi ninita, mi futura esp<span class="text-danger">o</span>sita jeje...
+                            </p>
+
+                            <p class="h3 font-monospace">
+                                <b>TE AMO
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" 
+                                    fill="currentColor" class="bi bi-heart-fill text-danger" 
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                                </svg> 
+                                </b>
+
+                            </p>
+
+                        </div>
+                        <div class="col-auto text-center text-muted" id="message">
+                            <div id="timer"></div>
+                            <p>
+                                Tiempo juntitos desde la primera vez que nos vimos... <br>
+                                27/12/2023 hasta 
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" 
+                                    class="bi bi-infinity" viewBox="0 0 16 16">
+                                    <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"/>
+                                </svg>
+                            </p>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="d-flex justify-content-center mt-5 m5-xxl-0">
+                        <div id="animation">
+                            <video class="w-100" autoplay loop>
+                                <source src="static/heart_animation.mp4" type="video/mp4">
+                            </video> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-3">
+                <div class="display-block">
+
+                    <iframe 
+                    style="border-radius:12px;" 
+                    src="https://open.spotify.com/embed/playlist/3Tnx198GRKUCAAToGQiTa5?utm_source=generator&theme=0" 
+                    width="100%" height="154" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        var startDate = new Date("2023-12-27T00:00:00");
+        startTimer(startDate)
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
